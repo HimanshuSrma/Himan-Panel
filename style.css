@@ -1,0 +1,151 @@
+* {
+  font-family: "Lato";
+}
+
+.darkGrey {
+  color: #fff;
+  background: #303135;
+}
+
+.lightText {
+  color: #7f7f7f;
+}
+
+.lightBg {
+  background: #e9eaed;
+}
+
+.pink {
+  color: #e92c6b;
+}
+
+.bgPink {
+  color: #fff;
+  background: #e92c6b;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-11 {
+  font-size: 11px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.btn-pink {
+  border: 1px solid #e92c6b;
+  color: #e92c6b;
+}
+.btn-pink:hover {
+  color: #e92c6b;
+}
+
+.header .fa {
+  font-size: 20px;
+}
+.header .headerProfilePic {
+  width: 30px !important;
+  height: 30px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .notificationCount {
+  top: 10%;
+  right: 20%;
+}
+
+.aside {
+  min-height: 100vh;
+  width: 55px;
+  margin: 0;
+  background: #46474b;
+}
+
+.userProfileCard .prifilePic {
+  max-width: 75px;
+  max-height: 75px;
+}
+.userProfileCard .tagText {
+  font-size: 10px;
+}
+
+.groupAndFollowerCard .inpPlaceholderSearchIcon {
+  right: 5%;
+  top: 33%;
+}
+.groupAndFollowerCard .listingDiv {
+  max-height: 350px;
+  overflow: auto;
+}
+.groupAndFollowerCard .listingDiv::-webkit-scrollbar {
+  display: none;
+}
+.groupAndFollowerCard .listingGroupPic {
+  width: 60px !important;
+  height: 60px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.groupAndFollowerCard .memberCount {
+  font-size: 12px;
+}
+
+.favoriteCard .nav-tabs .nav-link {
+  border: none;
+}
+
+.postview .postProfilePic {
+  width: 60px !important;
+  height: 60px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.postview .commentProfilePic {
+  width: 40px !important;
+  height: 40px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.postview .postTime {
+  font-size: 12px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-color: initial;
+  border-bottom: 2px solid #e92c6b;
+}
+
+.mediaDiv .fa {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .userProfileCard .prifilePic {
+    max-width: 75px;
+    max-height: 75px;
+  }
+  .userProfileCard .tagText {
+    font-size: 8px;
+  }
+  .groupAndFollowerCard .tags {
+    font-size: 13px;
+  }
+  .btnHead {
+    flex-direction: column;
+  }
+  .postBtn {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
